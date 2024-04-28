@@ -1,0 +1,189 @@
+
+Global IT
+==================================================================
+
+Problem Statement: Global IT
+
+1. Validate IT News and Awards details from Global IT
+2. Get profile details and validate from be cognizant.
+3. Validate IT app availability under Corporate Functions menu.
+4. Validate Other app’s availability in Global IT Home Page.
+5. Validate IT News and IT Awards sections availability.
+6. Validate all details of IT News and IT Awards.
+7. Print all Awards information
+
+(Suggested Site: https://be.cognizant.com)
+
+Detailed Description: Main Project
+====================================================================
+
+1. Navigate to Be. Cognizant Website and capture the user information.
+2. Mouseover on Security and Technology from Corporate Functions menu and click on IT.
+3. Validate and Explore Other apps present in Global IT home page.
+4. Scroll Down and check IT News and IT Awards sections availability.
+5. Print Count, News Header of IT News and verify News header and Tool tip of News.
+6. Click on each IT awards and print all the information.
+
+Note: Take all necessary screenshots for all the test cases and print all the data in the console.
+
+Key Automation Scope
+=====================================================================
+Handling alert, different browser windows, search option.
+Navigating back to home page.
+Extract multiple options items & store in collections.
+Capture warning message.
+Data Driven approach.
+Cross Browser Testing.
+
+
+RESULT IN DIFFERENT BROWSER :
+-----------------------------------------------------------------------
+
+Browser opened with the provided url
+Report object Initialised
+UserName is : Odeyar, Sneha (Contractor)
+UserEmail is : 2327222@cognizant.com
+Corporate Function and Click_On_IT report Generated
+Report For Exploring Apps is Generated
+Report For Exploring IT Outage Alerts  App is Generated
+Report For Exploring Microsoft Teams  App is Generated
+Report For Exploring One Drive  App is Generated
+Report For Exploring Global IT Internal Events  App is Generated
+Report For Exploring S&T Policy Hub  App is Generated
+Report of News Section Availability is Generated
+Report of Awards Section Availability is Generated
+Total News Count on Global IT page : 12
+Newsheader and Tooltip Validation Report Generated
+Congratulations to Rishabh Raj, Sr. Business Analyst, from the IT Resilience Office for successfully completing an external certification - EC Council Disaster Recovery Professional (EDRP). The achievement has equipped him with extensive knowledge on the effective strategies for data backup, system redundancy, availability, and incident response. This would help the concerned team in effectively dealing with potential disasters and ensuring continuity to the critical IT applications.
+Award 1 Description Report Generated and Written in Excel
+Congratulations to the IT team for winning the “DevSecOps Cultural Transformation Award” and the “Best Value Stream Management (VSM) Implementation Project” award at the prestigious DevOps India Summit 2023, organized by Xellentro.com.The honor was awarded for the best implementation of DevSecOps within IT, which transformed and optimized delivery excellence, customer satisfaction, and operational effectiveness. 
+Award 2  Description Report Generated and Written in Excel
+Cognizant Analytical Marketplace aka CInsights, the home-grown innovative cloud-based analytical solution, has received the esteemed Brandon Hall Group Bronze award for the best advancement in business strategy and technology innovation.CInsights revolutionizes the process of discovering valuable information and insights by empowering both organizations and customers to effortlessly generate analytical reports and dashboards. It transforms data discovery and utilization through its unified digital experience.One of the differentiating features of CInsights is its unique Role Hierarchy Management System (RHMS), ensuring effective data protection, and streamlined workflows. This innovative solution not only provides a secure and centralized platform for organizations to access their reports, dashboards, metrics, and insights, but also facilitates seamless collaboration, while ensuring that analytical assets are up to date and readily accessible. Read more about CInsights on Video - CInsights | Cognizant Academy (kpoint.com).
+  
+Award 3 Description Report Generated and Written in Excel
+The Browser Has Been Closed
+
+Browser opened with the provided url
+Report object Initialised
+UserName is : Odeyar, Sneha (Contractor)
+UserEmail is : 2327222@cognizant.com
+Corporate Function and Click_On_IT report Generated
+Report For Exploring Apps is Generated
+Report For Exploring IT Outage Alerts  App is Generated
+Report For Exploring Microsoft Teams  App is Generated
+Report For Exploring One Drive  App is Generated
+Report For Exploring Global IT Internal Events  App is Generated
+Report For Exploring S&T Policy Hub  App is Generated
+Report of News Section Availability is Generated
+Report of Awards Section Availability is Generated
+Total News Count on Global IT page : 12
+Newsheader and Tooltip Validation Report Generated
+Congratulations to Rishabh Raj, Sr. Business Analyst, from the IT Resilience Office for successfully completing an external certification - EC Council Disaster Recovery Professional (EDRP). The achievement has equipped him with extensive knowledge on the effective strategies for data backup, system redundancy, availability, and incident response. This would help the concerned team in effectively dealing with potential disasters and ensuring continuity to the critical IT applications.
+Award 1 Description Report Generated and Written in Excel
+Congratulations to the IT team for winning the “DevSecOps Cultural Transformation Award” and the “Best Value Stream Management (VSM) Implementation Project” award at the prestigious DevOps India Summit 2023, organized by Xellentro.com.The honor was awarded for the best implementation of DevSecOps within IT, which transformed and optimized delivery excellence, customer satisfaction, and operational effectiveness. 
+Award 2 Description Report Generated and Written in Excel
+Cognizant Analytical Marketplace aka CInsights, the home-grown innovative cloud-based analytical solution, has received the esteemed Brandon Hall Group Bronze award for the best advancement in business strategy and technology innovation.CInsights revolutionizes the process of discovering valuable information and insights by empowering both organizations and customers to effortlessly generate analytical reports and dashboards. It transforms data discovery and utilization through its unified digital experience.One of the differentiating features of CInsights is its unique Role Hierarchy Management System (RHMS), ensuring effective data protection, and streamlined workflows. This innovative solution not only provides a secure and centralized platform for organizations to access their reports, dashboards, metrics, and insights, but also facilitates seamless collaboration, while ensuring that analytical assets are up to date and readily accessible. Read more about CInsights on Video - CInsights | Cognizant Academy (kpoint.com).
+  
+Award 3 Description Report Generated and Written in Excel
+The Browser Has Been Closed
+
+===============================================
+mysuite
+Total tests run: 30, Passes: 30, Failures: 0, Skips: 0
+===============================================
+
+
+The Tools and Technology ->
+=====================================
+TestNG
+Selenium
+Page Object Model [POM]
+Apache poi[MS Excel]
+Extent Reports
+
+
+Added Depedencies ->
+=====================================
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>CASProject</groupId>
+  <artifactId>CASProject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  
+   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+   <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.18.1</version>
+   </dependency>
+  
+   <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+   <dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.7.0</version>
+   </dependency>
+   
+   <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+   <dependency>
+     <groupId>org.testng</groupId>
+     <artifactId>testng</artifactId>
+     <version>7.9.0</version>
+     <scope>test</scope>
+   </dependency>
+   
+   <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+	<dependency>
+		 <groupId>org.apache.poi</groupId>
+		 <artifactId>poi</artifactId>
+		 <version>5.2.5</version>
+	</dependency>
+		
+	<!--  https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml  -->
+	<dependency>
+		<groupId>org.apache.poi</groupId>
+		<artifactId>poi-ooxml</artifactId>
+		<version>5.2.5</version>
+	</dependency>
+		
+	<!--  https://mvnrepository.com/artifact/com.aventstack/extentreports  -->
+	<dependency>
+		<groupId>com.aventstack</groupId>
+		<artifactId>extentreports</artifactId>
+		<version>5.1.1</version>
+	</dependency>
+
+	<!--  https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl  -->
+	<dependency>
+		<groupId>org.apache.logging.log4j</groupId>
+		<artifactId>log4j-slf4j-impl</artifactId>
+		<version>2.22.0</version>
+	</dependency>
+
+	<!--  https://mvnrepository.com/artifact/commons-io/commons-io  -->
+	<dependency>
+		<groupId>commons-io</groupId>
+		<artifactId>commons-io</artifactId>
+		<version>2.15.1</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+	<dependency>
+	    <groupId>org.apache.logging.log4j</groupId>
+	    <artifactId>log4j-core</artifactId>
+	    <version>2.23.1</version>
+	</dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+	<dependency>
+	    <groupId>org.apache.logging.log4j</groupId>
+	    <artifactId>log4j-api</artifactId>
+	    <version>2.23.1</version>
+	</dependency>
+
+  </dependencies>
+  
+</project>
+

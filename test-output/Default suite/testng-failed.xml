@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testScenario.Global_IT">
+        <methods>
+          <include name="verifyNewsAvailability"/>
+          <include name="clickOnIT"/>
+          <include name="displayNewsCount"/>
+          <include name="displayAwards"/>
+          <include name="getResult"/>
+          <include name="endReport"/>
+          <include name="captureUserInfo"/>
+          <include name="setUp"/>
+          <include name="closeBrow"/>
+          <include name="exploreApps"/>
+          <include name="verifyAwardsAvailability"/>
+          <include name="validateApps"/>
+          <include name="validateNewsHeaderAndTooltip"/>
+        </methods>
+      </class> <!-- testScenario.Global_IT -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
